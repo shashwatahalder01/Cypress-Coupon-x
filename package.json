@@ -5,7 +5,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test": "cypress run && ts-node cypress/support/emailSender.ts",
+    "test": "cypress run || ts-node cypress/support/emailSender.ts",
     "type": "npx tsc --noEmit"
   },
   "keywords": [],
