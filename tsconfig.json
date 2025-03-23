@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "sourceMap": true,
+    "types": ["cypress", "node"],
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures/*": ["cypress/fixtures/*"],
+      "@support/*": ["cypress/support/*"]
+    }
+  },
+  "include": ["**/*.ts", "cypress/plugins/index.js"]
+}
