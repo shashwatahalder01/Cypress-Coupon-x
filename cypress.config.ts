@@ -28,8 +28,5 @@ module.exports = defineConfig({
     },
     experimentalStudio: true,
     baseUrl: 'http://widget.test',
-    // viewportHeight: 550,
-    // viewportWidth: 660,
-    // chromeWebSecurity: false,
   },
 });
