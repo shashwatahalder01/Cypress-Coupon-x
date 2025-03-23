@@ -19,8 +19,8 @@ Follow these steps to set up and run the test automation:
 Clone the repository to your local machine.
 
 ```
-git clone https://github.com/your-repo-url.git
-cd your-repo-name
+git clone https://github.com/shashwatahalder01/Cypress-Coupon-x.git
+cd Cypress-Coupon-x
 ```
 
 ### 2. Install Dependencies
