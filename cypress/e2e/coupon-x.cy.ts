@@ -38,6 +38,13 @@ describe("Coupon-x tests", () => {
     cy.get('.tab-icon').should('be.visible');
   });
 
+
+  // afterEach(() => { 
+  //   cy.wait(3000);
+  //   cy.deactivatePlugin('coupon-x-discount-pop-up/coupon-x-for-wc');
+  //   cy.deletePlugin('coupon-x-discount-pop-up/coupon-x-for-wc');
+  // });
+
   after(() => {
     let status = (Cypress as any).mocha.getRunner().stats.failures > 0 ? "FAILED" : "PASSED";
     cy.task("writeTestStatus", status);
