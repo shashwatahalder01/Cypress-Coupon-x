@@ -7,6 +7,7 @@
     "cy:run": "cypress run",
     "send:email": "ts-node cypress/support/emailSender.ts",
     "test": "cypress run; ts-node cypress/support/emailSender.ts",
+    "test:headed": "cypress run --headed --browser chrome; ts-node cypress/support/emailSender.ts",
     "type": "npx tsc --noEmit"
   },
   "keywords": [],
